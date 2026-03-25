@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'Free QR Code Generator — Create QR Codes Instantly',
     description: 'Generate QR codes instantly for any URL or text. Free, no signup, no tracking.',
     type: 'website',
-    url: 'https://qr.get-billflow.vercel.app',
+    url: 'https://free-qr-gen.vercel.app',
     siteName: 'QR Code Generator',
   },
   twitter: {
