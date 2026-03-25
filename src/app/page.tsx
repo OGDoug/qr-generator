@@ -155,6 +155,44 @@ export default function Home() {
         </section>
       </main>
 
+      {/* Cross-Promo */}
+      <section className="px-6 pb-16">
+        <div className="max-w-4xl mx-auto">
+          <h3 className="text-2xl font-bold text-center mb-3">
+            More Free Tools for Freelancers
+          </h3>
+          <p className="text-zinc-400 text-center mb-10 text-sm">
+            Simple tools that save you hours. No signup, no fees.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-6">
+            <a
+              href="https://get-billflow.vercel.app"
+              className="bg-zinc-900 border border-zinc-800 rounded-xl p-6 hover:border-blue-500/50 transition-colors group"
+            >
+              <div className="text-3xl mb-3">📄</div>
+              <h4 className="font-semibold mb-1 group-hover:text-blue-400 transition-colors">
+                BillFlow — Free Invoice Generator
+              </h4>
+              <p className="text-sm text-zinc-400">
+                Create professional invoices, export PDFs, track payments. All in your browser.
+              </p>
+            </a>
+            <a
+              href="https://woodstockaie.gumroad.com"
+              className="bg-zinc-900 border border-zinc-800 rounded-xl p-6 hover:border-emerald-500/50 transition-colors group"
+            >
+              <div className="text-3xl mb-3">🧰</div>
+              <h4 className="font-semibold mb-1 group-hover:text-emerald-400 transition-colors">
+                Freelancer Toolkit
+              </h4>
+              <p className="text-sm text-zinc-400">
+                AI prompts, cold outreach templates, pricing guides, content calendars — all under $10.
+              </p>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="border-t border-zinc-800 px-6 py-8">
         <div className="max-w-5xl mx-auto text-center text-sm text-zinc-500">
