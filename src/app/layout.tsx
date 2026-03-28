@@ -19,6 +19,12 @@ export const metadata: Metadata = {
     description: 'Generate QR codes instantly for any URL or text. Free, no signup, no tracking.',
   },
   robots: { index: true, follow: true },
+  alternates: {
+    canonical: 'https://free-qr-gen.vercel.app',
+  },
+  verification: {
+    google: 't7nGv63QBO2NkVMRzzl6Z2dKwFhVpw73D7ZoyTOKVUk',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
