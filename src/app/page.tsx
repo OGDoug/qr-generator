@@ -47,10 +47,10 @@ export default function Home() {
             <span className="text-emerald-400">QR</span> Generator
           </h1>
           <a
-            href="https://get-billflow.vercel.app"
+            href="https://duxbill.com"
             className="text-sm text-zinc-400 hover:text-zinc-200 transition"
           >
-            by BillFlow
+            by Duxbill
           </a>
         </div>
       </header>
@@ -166,12 +166,12 @@ export default function Home() {
           </p>
           <div className="grid sm:grid-cols-2 gap-6">
             <a
-              href="https://get-billflow.vercel.app"
+              href="https://duxbill.com"
               className="bg-zinc-900 border border-zinc-800 rounded-xl p-6 hover:border-blue-500/50 transition-colors group"
             >
               <div className="text-3xl mb-3">📄</div>
               <h4 className="font-semibold mb-1 group-hover:text-blue-400 transition-colors">
-                BillFlow — Free Invoice Generator
+                Duxbill — Free Invoice Generator
               </h4>
               <p className="text-sm text-zinc-400">
                 Create professional invoices, export PDFs, track payments. All in your browser.
@@ -199,10 +199,10 @@ export default function Home() {
           <p>
             Built with ♥ by{' '}
             <a
-              href="https://get-billflow.vercel.app"
+              href="https://duxbill.com"
               className="text-emerald-400 hover:text-emerald-300 transition"
             >
-              BillFlow
+              Duxbill
             </a>
           </p>
           <p className="mt-1">Free forever. No tracking. No signup required.</p>

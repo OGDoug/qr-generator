@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
+const QR_SITE_URL = 'https://qrcode.tools.woodstockaie.com';
+
 export const metadata: Metadata = {
   title: 'Free QR Code Generator — Create QR Codes Instantly',
   description:
@@ -10,7 +12,7 @@ export const metadata: Metadata = {
     title: 'Free QR Code Generator — Create QR Codes Instantly',
     description: 'Generate QR codes instantly for any URL or text. Free, no signup, no tracking.',
     type: 'website',
-    url: 'https://free-qr-gen.vercel.app',
+    url: QR_SITE_URL,
     siteName: 'QR Code Generator',
   },
   twitter: {
@@ -20,7 +22,7 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
   alternates: {
-    canonical: 'https://free-qr-gen.vercel.app',
+    canonical: QR_SITE_URL,
   },
   verification: {
     google: 't7nGv63QBO2NkVMRzzl6Z2dKwFhVpw73D7ZoyTOKVUk',
